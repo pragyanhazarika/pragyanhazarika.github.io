@@ -1,29 +1,23 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to my personal blog!"
 date:   2023-07-29 14:07:11 -0400
-categories: jekyll update
+categories: update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This is my first blog `commit`!
 
-Jekyll requires blog post files to be named according to the following format:
+Here is goes:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+{% highlight python %}
+def start_universe(seed):
+  result = big_bang(seed)
+  print("Universe is starting ... %s" % result)
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+start_universe('tomorrow')
+#=> Should create a universe ...
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Check out some of the topics that interest me [Home Assistant][home-assistant] (Blogpost coming on this). Also goes hand in hand [Zigbee2MQTT][zigbee2mqtt]. 
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[home-assistant]: https://www.home-assistant.io/
+[zigbee2mqtt]:   https://www.zigbee2mqtt.io/

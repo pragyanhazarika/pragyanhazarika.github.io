@@ -6,7 +6,7 @@ categories: update
 ---
 This is my first blog `commit`!
 
-Here is goes:
+Here it goes:
 
 {% highlight python %}
 def start_universe(seed):

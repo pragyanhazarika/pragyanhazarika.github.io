@@ -17,7 +17,7 @@ start_universe('tomorrow')
 #=> Should create a universe ...
 {% endhighlight %}
 
-Check out some of the topics that interest me [Home Assistant][home-assistant] (Blogpost coming on this). Also goes hand in hand [Zigbee2MQTT][zigbee2mqtt]. 
+Check out some of the topics that interest me [Home Assistant][home-assistant]. Also goes hand in hand [Zigbee2MQTT][zigbee2mqtt]. 
 
 [home-assistant]: https://www.home-assistant.io/
 [zigbee2mqtt]:   https://www.zigbee2mqtt.io/
